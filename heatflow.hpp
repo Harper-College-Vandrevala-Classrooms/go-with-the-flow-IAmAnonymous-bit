@@ -10,7 +10,7 @@ class Heatflow
         vector<float> rod;
         float k;
         float initial_temperature;
-        vector<int> source_and_sinks;
+        vector<bool> source_and_sinks;
 
     public:
         Heatflow(float initial_temperature, int number_of_sections, float k, vector<float> sources_and_sinks);
